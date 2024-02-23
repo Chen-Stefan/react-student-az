@@ -1,0 +1,24 @@
+const studentData = [
+  { studentId: 1, lastName: "Sam", firstName: "Ray", school: "Mining" },
+  { studentId: 2, lastName: "Dan", firstName: "Ash", school: "Medicine" },
+  { studentId: 3, lastName: "Pat", firstName: "Lee", school: "Computing" },
+  { studentId: 4, lastName: "Kim", firstName: "Day", school: "Nursing" },
+  { studentId: 5, lastName: "Tim", firstName: "Rex", school: "Computing" },
+  { studentId: 6, lastName: "Rob", firstName: "Ram", school: "Business" },
+  { studentId: 7, lastName: "Jan", firstName: "Fry", school: "Mining" },
+  { studentId: 8, lastName: "Jim", firstName: "Tex", school: "Nursing" },
+  { studentId: 9, lastName: "Ben", firstName: "Kid", school: "Business" },
+  { studentId: 10, lastName: "Mia", firstName: "Chu", school: "Medicine" },
+  { studentId: 11, lastName: "Ted", firstName: "Tao", school: "Computing" },
+  { studentId: 12, lastName: "Amy", firstName: "Day", school: "Business" },
+  { studentId: 13, lastName: "Ian", firstName: "Roy", school: "Nursing" },
+  { studentId: 14, lastName: "Liz", firstName: "Kit", school: "Nursing" },
+  { studentId: 15, lastName: "Mat", firstName: "Tan", school: "Medicine" },
+  { studentId: 16, lastName: "Deb", firstName: "Roy", school: "Medicine" },
+  { studentId: 17, lastName: "Ana", firstName: "Ray", school: "Mining" },
+  { studentId: 18, lastName: "Lyn", firstName: "Poe", school: "Computing" },
+  { studentId: 19, lastName: "Amy", firstName: "Raj", school: "Nursing" },
+  { studentId: 20, lastName: "Kim", firstName: "Ash", school: "Mining" },
+];
+
+export default studentData;

@@ -34,36 +34,6 @@ const AddStudentForm = ({ student }) => {
     });
   };
 
-  const updateStudent = (e) => {
-    e.preventDefault();
-    // Ensure that student.id is defined
-    if (!student || !student.id) {
-      console.error("No student ID provided for update.");
-      return;
-    }
-    const url = `${CONSTANTS.BASE_API_URL}students/${student.id}`;
-    performFetch({
-      url,
-      method: "PUT",
-      body: { firstName, lastName, school },
-    });
-  };
-
-  const deleteStudent = (e, studentId) => {
-    e.preventDefault();
-    console.log("Delete student:", studentId);
-    // Ensure that student.id is defined
-    if (!student || !student.studentId) {
-      console.error("No student ID provided for delete.");
-      return;
-    }
-    const url = `${CONSTANTS.BASE_API_URL}students/${studentId}`;
-    performFetch({
-      url,
-      method: "DELETE",
-    });
-  };
-
   if (addFlag) {
     return <Navigate to="/list" />;
   }

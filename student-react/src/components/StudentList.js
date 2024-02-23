@@ -3,6 +3,7 @@ import { Link } from "react-router-dom";
 import { useState, useEffect } from "react";
 import CONSTANTS from "../data/config";
 
+
 const StudentList = (param) => {
   const [studentInfo, setStudentInfo] = useState({});
 
